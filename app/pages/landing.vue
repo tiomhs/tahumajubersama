@@ -1,6 +1,5 @@
 <template>
   <div>
-    <!-- Tofu Factory Landing Page Sections -->
     <LandingHero />
     <LandingPillars />
     <LandingAbout />
