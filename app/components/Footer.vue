@@ -8,7 +8,7 @@
           <div class="flex items-center gap-2">
             <span class="text-2xl" role="img" aria-label="Tofu soup">🍲</span>
             <span class="font-heading font-extrabold text-xl tracking-tight text-white">
-              Tahu<span class="text-brand-gold">Maju</span>
+              Tahu<span class="text-brand-gold">Klungkung</span>
             </span>
           </div>
           <p class="text-xs text-white/50 max-w-sm leading-relaxed">
