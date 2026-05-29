@@ -34,7 +34,7 @@ const toggleMobileMenu = () => {
         <div class="hidden md:flex items-center gap-4">
           <ThemeToggle />
           <a 
-            href="https://wa.me/6281234567890?text=Halo%20Tahu%20Maju%2C%20saya%20tertarik%20untuk%20memesan%20tahu%20putih%20segar%20Anda." 
+            href="https://wa.me/6287815848998?text=Halo%20Tahu%20Maju%2C%20saya%20tertarik%20untuk%20memesan%20tahu%20putih%20segar%20Anda." 
             target="_blank" 
             rel="noopener" 
             class="bg-brand-green dark:bg-brand-gold text-white dark:text-brand-dark font-heading font-bold px-5 py-2.5 rounded-lg shadow-md hover:bg-opacity-90 transform hover:-translate-y-0.5 transition duration-150 text-sm"
@@ -95,7 +95,7 @@ const toggleMobileMenu = () => {
         
         <div class="pt-2 border-t border-brand-darkgold/10 dark:border-white/10">
           <a 
-            href="https://wa.me/6281234567890?text=Halo%20Tahu%20Maju%2C%20saya%20tertarik%20untuk%20memesan%20tahu%20putih%20segar%20Anda." 
+            href="https://wa.me/6287815848998?text=Halo%20Tahu%20Maju%2C%20saya%20tertarik%20untuk%20memesan%20tahu%20putih%20segar%20Anda." 
             target="_blank" 
             rel="noopener" 
             class="block text-center w-full bg-brand-green dark:bg-brand-gold text-white dark:text-brand-dark font-heading font-bold py-3 rounded-lg shadow"

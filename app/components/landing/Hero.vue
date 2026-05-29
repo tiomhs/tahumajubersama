@@ -20,7 +20,7 @@
           
           <div class="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
             <a 
-              href="https://wa.me/6281234567890?text=Halo%20Tahu%20Maju%2C%20saya%20ingin%20memesan%20Tahu%20Putih%20Tradisional%20sekarang." 
+              href="https://wa.me/6287815848998?text=Halo%20Tahu%20Maju%2C%20saya%20ingin%20memesan%20Tahu%20Putih%20Tradisional%20sekarang." 
               target="_blank" 
               rel="noopener" 
               class="inline-flex justify-center items-center px-8 py-4 bg-brand-green text-white font-heading font-extrabold text-lg rounded-xl shadow-lg hover:shadow-xl hover:bg-opacity-95 transform hover:-translate-y-0.5 transition duration-150 gap-2"

@@ -13,9 +13,9 @@ useHead({
 </script>
 
 <template>
-  <div class="min-h-screen bg-brand-cream dark:bg-brand-dark text-brand-dark dark:text-white transition-colors duration-300 flex flex-col">
+  <div class="bg-brand-cream text-brand-dark font-sans leading-relaxed">
     <Navbar />
-    <main class="flex-grow">
+    <main>
       <slot />
     </main>
     <Footer />

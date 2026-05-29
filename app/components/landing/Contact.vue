@@ -46,7 +46,7 @@
               <div>
                 <h4 class="font-heading font-semibold text-brand-darkgold dark:text-white">Hubungi Kami (WhatsApp)</h4>
                 <p class="text-brand-gray dark:text-white/70 text-sm font-semibold">
-                  +62 812-3456-7890
+                  +62 878-1584-8998
                 </p>
                 <p class="text-brand-gray dark:text-white/50 text-xs">
                   Melayani konsultasi kerjasama pasokan harian.
@@ -56,25 +56,26 @@
           </div>
         </div>
 
-        <!-- Location Map Placeholder (Right) -->
-        <div class="lg:col-span-7 space-y-6">
+        <!-- Location Map (Right) -->
+        <div class="lg:col-span-7 space-y-4 w-full">
           <div class="w-full h-96 rounded-2xl overflow-hidden border border-brand-darkgold/15 dark:border-white/10 bg-brand-cream dark:bg-brand-gray/10 relative shadow-inner">
-            <!-- Embedded Interactive Google Maps Placeholder with high fidelity UI -->
-            <div class="absolute inset-0 flex flex-col items-center justify-center p-6 text-center space-y-4">
-              <span class="text-5xl" role="img" aria-label="Map icon">🗺️</span>
-              <div class="space-y-1">
-                <h4 class="font-heading font-bold text-brand-darkgold dark:text-white text-lg">Peta Lokasi Pabrik Klungkung</h4>
-                <p class="text-brand-gray dark:text-white/50 text-xs max-w-sm mx-auto">Banjar Grombong, Sampalan Tengah. Klik untuk mendapatkan arah rute navigasi Google Maps langsung.</p>
-              </div>
-              <a 
-                href="https://maps.google.com/?q=-8.5367,115.4267" 
-                target="_blank" 
-                rel="noopener" 
-                class="bg-brand-darkgold dark:bg-brand-gold text-white dark:text-brand-dark font-heading font-semibold text-xs px-5 py-2.5 rounded-lg shadow hover:bg-opacity-90 transition"
-              >
-                Buka Rute Google Maps
-              </a>
-            </div>
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.591360156657!2d115.40937907589598!3d-8.538992086543235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2119f416ca781%3A0xb9bf82dfe25fc904!2sPABRIK%20TAHU%20(Home%20Industri%20Maju%20Sejahtera)!5e0!3m2!1sen!2sid!4v1780087107238!5m2!1sen!2sid" 
+              class="w-full h-full border-0" 
+              allowfullscreen="true" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="text-right">
+            <a 
+              href="https://maps.app.goo.gl/gLtkC4m8D5iCbDE77" 
+              target="_blank" 
+              rel="noopener" 
+              class="inline-flex items-center gap-1.5 text-sm font-heading font-semibold text-brand-green dark:text-brand-gold hover:underline"
+            >
+              Buka Rute Lengkap di Google Maps &rarr;
+            </a>
           </div>
         </div>
 
@@ -93,7 +94,7 @@
         </p>
         <div class="pt-2">
           <a 
-            href="https://wa.me/6281234567890?text=Halo%20Tahu%20Maju%2C%20saya%20tertarik%20kemitraan%20dan%20ingin%20memesan%20Tahu%20Putih%20hangat." 
+            href="https://wa.me/6287815848998?text=Halo%20Tahu%20Maju%2C%20saya%20tertarik%20kemitraan%20dan%20ingin%20memesan%20Tahu%20Putih%20hangat." 
             target="_blank" 
             rel="noopener" 
             class="inline-flex items-center justify-center px-8 py-4 bg-brand-gold text-brand-darkgold font-heading font-black text-xl rounded-xl shadow-xl hover:bg-white hover:text-brand-green dark:hover:text-brand-dark transform hover:-translate-y-0.5 transition duration-150 gap-2"

@@ -38,7 +38,7 @@
               </div>
               
               <a 
-                href="https://wa.me/6281234567890?text=Halo%20Tahu%20Maju%2C%20saya%20ingin%20memesan%20Tahu%20Putih%20Tradisional%20sebanyak%20..." 
+                href="https://wa.me/6287815848998?text=Halo%20Tahu%20Maju%2C%20saya%20ingin%20memesan%20Tahu%20Putih%20Tradisional%20sebanyak%20..." 
                 target="_blank" 
                 rel="noopener" 
                 class="block text-center w-full bg-brand-green dark:bg-brand-gold text-white dark:text-brand-dark font-heading font-bold py-3 rounded-xl hover:bg-opacity-90 transition"
@@ -74,7 +74,7 @@
               </div>
               
               <a 
-                href="https://wa.me/6281234567890?text=Halo%20Tahu%20Maju%2C%20saya%20ingin%20memesan%20Ampas%20Tahu%20sebanyak%20..." 
+                href="https://wa.me/6287815848998?text=Halo%20Tahu%20Maju%2C%20saya%20ingin%20memesan%20Ampas%20Tahu%20sebanyak%20..." 
                 target="_blank" 
                 rel="noopener" 
                 class="block text-center w-full bg-brand-darkgold dark:bg-brand-gray text-white dark:text-white font-heading font-bold py-3 rounded-xl hover:bg-opacity-90 transition"
@@ -111,7 +111,7 @@
               </div>
               
               <a 
-                href="https://wa.me/6281234567890?text=Halo%20Pimpinan%20Tahu%20Maju%2C%20saya%20ingin%20berdiskusi%20tentang%20kerjasama%20pasokan%20harian%20untuk%20warung%2Fcatering%20saya." 
+                href="https://wa.me/6287815848998?text=Halo%20Pimpinan%20Tahu%20Maju%2C%20saya%20ingin%20berdiskusi%20tentang%20kerjasama%20pasokan%20harian%20untuk%20warung%2Fcatering%20saya." 
                 target="_blank" 
                 rel="noopener" 
                 class="block text-center w-full bg-brand-green dark:bg-brand-gold text-white dark:text-brand-dark font-heading font-bold py-3 rounded-xl hover:bg-opacity-90 transition"
