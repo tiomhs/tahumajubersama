@@ -46,7 +46,7 @@
           <div class="absolute -inset-1 bg-gradient-to-tr from-brand-gold to-brand-green rounded-3xl blur opacity-30"/>
           <div class="relative bg-brand-dark rounded-3xl overflow-hidden shadow-2xl border border-brand-darkgold/20 dark:border-white/10">
             <img 
-              src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=800" 
+              src="/images/pabrik_tahu.png" 
               alt="Produksi Tahu Putih Klungkung yang Mengeluarkan Uap Hangat Alami" 
               class="w-full h-[450px] object-cover opacity-85 hover:scale-105 transition duration-500"
             >

@@ -8,7 +8,7 @@
           <div class="relative">
             <div class="absolute -inset-2 bg-brand-green/20 rounded-2xl blur-lg"/>
             <img 
-              src="https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&q=80&w=800" 
+              src="/images/pabrik_tahu.png" 
               alt="Proses Pembuatan Tahu dari Kacang Kedelai Pilihan Klungkung" 
               class="relative rounded-2xl shadow-xl w-full h-[500px] object-cover border border-brand-darkgold/10 dark:border-white/10"
             >

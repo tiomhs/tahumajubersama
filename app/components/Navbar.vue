@@ -16,7 +16,7 @@ const toggleMobileMenu = () => {
         <NuxtLink to="/" class="flex items-center gap-2">
           <span class="text-3xl" role="img" aria-label="Tofu Soup">🍲</span>
           <span class="font-heading font-extrabold text-2xl tracking-tight text-brand-darkgold dark:text-white">
-            Tahu<span class="text-brand-green dark:text-brand-gold">Maju</span>
+            Tahu<span class="text-brand-green dark:text-brand-gold">Klungkung</span>
           </span>
         </NuxtLink>
 

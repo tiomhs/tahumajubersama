@@ -16,7 +16,7 @@
         <article class="bg-brand-cream dark:bg-brand-dark/50 rounded-2xl overflow-hidden border border-brand-darkgold/10 dark:border-white/10 shadow-md hover:shadow-xl transition-all duration-300 flex flex-col h-full">
           <div class="h-56 relative overflow-hidden">
             <img 
-              src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=800" 
+              src="/images/tahu_putih.png" 
               alt="Tahu Putih Tradisional Klungkung Siap Jual dalam Nampan Kayu" 
               class="w-full h-full object-cover hover:scale-105 transition duration-300"
             >
@@ -53,7 +53,7 @@
         <article class="bg-brand-cream dark:bg-brand-dark/50 rounded-2xl overflow-hidden border border-brand-darkgold/10 dark:border-white/10 shadow-md hover:shadow-xl transition-all duration-300 flex flex-col h-full">
           <div class="h-56 relative overflow-hidden">
             <img 
-              src="https://images.unsplash.com/photo-1533038590840-1cde6b66b72d?auto=format&fit=crop&q=80&w=800" 
+              src="/images/ampas_tahu.png" 
               alt="Ampas Tahu Bernutrisi Tinggi untuk Pakan Ternak" 
               class="w-full h-full object-cover hover:scale-105 transition duration-300"
             >
@@ -89,7 +89,7 @@
         <article class="bg-brand-cream dark:bg-brand-dark/50 rounded-2xl overflow-hidden border border-brand-darkgold/10 dark:border-white/10 shadow-md hover:shadow-xl transition-all duration-300 flex flex-col h-full">
           <div class="h-56 relative overflow-hidden">
             <img 
-              src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=800" 
+              src="/images/kemitraan_b2b.png" 
               alt="Katering dan Jamuan Makan Tradisional Bali Menggunakan Tahu Segar" 
               class="w-full h-full object-cover hover:scale-105 transition duration-300"
             >
