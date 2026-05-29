@@ -5,7 +5,7 @@ export const useTheme = () => {
   // Using a cookie allows Nuxt SSR to inject the correct CSS class ('dark')
   // on the server before sending the HTML, preventing flash of unstyled content.
   const themeSetting = useCookie<'light' | 'dark'>('app-theme', {
-    default: () => 'dark', // Default theme is dark
+    default: () => 'light', // Default theme is light
     path: '/',
     sameSite: 'lax'
   })
