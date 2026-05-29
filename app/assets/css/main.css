@@ -69,6 +69,10 @@ html.dark {
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html, body {
   min-height: 100vh;
   background-color: var(--bg-primary);
@@ -267,3 +271,9 @@ a {
   opacity: 0;
   transform: translateY(10px);
 }
+
+/* Offset for fixed navbar during smooth scrolling */
+section {
+  scroll-margin-top: 5rem;
+}
+

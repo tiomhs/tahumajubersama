@@ -8,7 +8,7 @@ const toggleMobileMenu = () => {
 </script>
 
 <template>
-  <header class="sticky top-0 z-50 bg-brand-cream/80 dark:bg-brand-dark/80 backdrop-blur-md border-b border-brand-darkgold/10 dark:border-white/10 transition-colors duration-300">
+  <header class="fixed top-0 left-0 right-0 z-50 bg-brand-cream/80 dark:bg-brand-dark/80 backdrop-blur-md border-b border-brand-darkgold/10 dark:border-white/10 transition-colors duration-300">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center h-20">
         

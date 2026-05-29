@@ -15,7 +15,7 @@ useHead({
 <template>
   <div class="bg-brand-cream text-brand-dark font-sans leading-relaxed">
     <Navbar />
-    <main>
+    <main class="pt-20">
       <slot />
     </main>
     <Footer />
