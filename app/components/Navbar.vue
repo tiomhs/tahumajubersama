@@ -22,12 +22,13 @@ const toggleMobileMenu = () => {
 
         <!-- Desktop Navigation Links -->
         <nav class="hidden md:flex space-x-6 lg:space-x-8">
-          <a href="#beranda" class="font-heading font-medium text-brand-gray dark:text-white/70 hover:text-brand-green dark:hover:text-brand-gold transition-colors">Beranda</a>
-          <a href="#keunggulan" class="font-heading font-medium text-brand-gray dark:text-white/70 hover:text-brand-green dark:hover:text-brand-gold transition-colors">Keunggulan</a>
-          <a href="#tentang" class="font-heading font-medium text-brand-gray dark:text-white/70 hover:text-brand-green dark:hover:text-brand-gold transition-colors">Kisah Kami</a>
-          <a href="#produk" class="font-heading font-medium text-brand-gray dark:text-white/70 hover:text-brand-green dark:hover:text-brand-gold transition-colors">Produk & Layanan</a>
-          <a href="#proses" class="font-heading font-medium text-brand-gray dark:text-white/70 hover:text-brand-green dark:hover:text-brand-gold transition-colors">Proses</a>
-          <a href="#kontak" class="font-heading font-medium text-brand-gray dark:text-white/70 hover:text-brand-green dark:hover:text-brand-gold transition-colors">Kontak</a>
+          <NuxtLink to="/" class="font-heading font-medium text-brand-gray dark:text-white/70 hover:text-brand-green dark:hover:text-brand-gold transition-colors">Beranda</NuxtLink>
+          <NuxtLink to="/#keunggulan" class="font-heading font-medium text-brand-gray dark:text-white/70 hover:text-brand-green dark:hover:text-brand-gold transition-colors">Keunggulan</NuxtLink>
+          <NuxtLink to="/#tentang" class="font-heading font-medium text-brand-gray dark:text-white/70 hover:text-brand-green dark:hover:text-brand-gold transition-colors">Kisah Kami</NuxtLink>
+          <NuxtLink to="/#produk" class="font-heading font-medium text-brand-gray dark:text-white/70 hover:text-brand-green dark:hover:text-brand-gold transition-colors">Produk & Layanan</NuxtLink>
+          <NuxtLink to="/#proses" class="font-heading font-medium text-brand-gray dark:text-white/70 hover:text-brand-green dark:hover:text-brand-gold transition-colors">Proses</NuxtLink>
+          <NuxtLink to="/#kontak" class="font-heading font-medium text-brand-gray dark:text-white/70 hover:text-brand-green dark:hover:text-brand-gold transition-colors">Kontak</NuxtLink>
+          <NuxtLink to="/blog" class="font-heading font-medium text-brand-gray dark:text-white/70 hover:text-brand-green dark:hover:text-brand-gold transition-colors" active-class="text-brand-green dark:text-brand-gold font-bold">Blog</NuxtLink>
         </nav>
 
         <!-- Right Hand Actions -->
@@ -86,12 +87,13 @@ const toggleMobileMenu = () => {
       leave-to-class="opacity-0 -translate-y-2"
     >
       <div v-show="isMobileOpen" class="md:hidden bg-brand-cream dark:bg-brand-dark border-b border-brand-darkgold/10 dark:border-white/10 px-4 pt-2 pb-6 space-y-3">
-        <a href="#beranda" class="block font-heading font-medium text-brand-gray dark:text-white/70 hover:text-brand-green dark:hover:text-brand-gold py-1" @click="isMobileOpen = false">Beranda</a>
-        <a href="#keunggulan" class="block font-heading font-medium text-brand-gray dark:text-white/70 hover:text-brand-green dark:hover:text-brand-gold py-1" @click="isMobileOpen = false">Keunggulan</a>
-        <a href="#tentang" class="block font-heading font-medium text-brand-gray dark:text-white/70 hover:text-brand-green dark:hover:text-brand-gold py-1" @click="isMobileOpen = false">Kisah Kami</a>
-        <a href="#produk" class="block font-heading font-medium text-brand-gray dark:text-white/70 hover:text-brand-green dark:hover:text-brand-gold py-1" @click="isMobileOpen = false">Produk & Layanan</a>
-        <a href="#proses" class="block font-heading font-medium text-brand-gray dark:text-white/70 hover:text-brand-green dark:hover:text-brand-gold py-1" @click="isMobileOpen = false">Proses Produksi</a>
-        <a href="#kontak" class="block font-heading font-medium text-brand-gray dark:text-white/70 hover:text-brand-green dark:hover:text-brand-gold py-1" @click="isMobileOpen = false">Kontak & Lokasi</a>
+        <NuxtLink to="/" class="block font-heading font-medium text-brand-gray dark:text-white/70 hover:text-brand-green dark:hover:text-brand-gold py-1" @click="isMobileOpen = false">Beranda</NuxtLink>
+        <NuxtLink to="/#keunggulan" class="block font-heading font-medium text-brand-gray dark:text-white/70 hover:text-brand-green dark:hover:text-brand-gold py-1" @click="isMobileOpen = false">Keunggulan</NuxtLink>
+        <NuxtLink to="/#tentang" class="block font-heading font-medium text-brand-gray dark:text-white/70 hover:text-brand-green dark:hover:text-brand-gold py-1" @click="isMobileOpen = false">Kisah Kami</NuxtLink>
+        <NuxtLink to="/#produk" class="block font-heading font-medium text-brand-gray dark:text-white/70 hover:text-brand-green dark:hover:text-brand-gold py-1" @click="isMobileOpen = false">Produk & Layanan</NuxtLink>
+        <NuxtLink to="/#proses" class="block font-heading font-medium text-brand-gray dark:text-white/70 hover:text-brand-green dark:hover:text-brand-gold py-1" @click="isMobileOpen = false">Proses Produksi</NuxtLink>
+        <NuxtLink to="/#kontak" class="block font-heading font-medium text-brand-gray dark:text-white/70 hover:text-brand-green dark:hover:text-brand-gold py-1" @click="isMobileOpen = false">Kontak & Lokasi</NuxtLink>
+        <NuxtLink to="/blog" class="block font-heading font-medium text-brand-gray dark:text-white/70 hover:text-brand-green dark:hover:text-brand-gold py-1 border-t border-brand-darkgold/10 dark:border-white/10 pt-2" active-class="text-brand-green dark:text-brand-gold font-bold" @click="isMobileOpen = false">Blog & Edukasi</NuxtLink>
         
         <div class="pt-2 border-t border-brand-darkgold/10 dark:border-white/10">
           <a 

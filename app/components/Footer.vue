@@ -20,11 +20,12 @@
         <div class="space-y-4">
           <h4 class="font-heading font-bold text-white text-sm uppercase tracking-wider">Navigasi Halaman</h4>
           <ul class="space-y-2 text-xs">
-            <li><a href="#beranda" class="hover:text-brand-gold transition-colors">Kembali ke Atas</a></li>
-            <li><a href="#keunggulan" class="hover:text-brand-gold transition-colors">Mengapa Kami</a></li>
-            <li><a href="#tentang" class="hover:text-brand-gold transition-colors">Riwayat Pembuat</a></li>
-            <li><a href="#produk" class="hover:text-brand-gold transition-colors">Katalog Tahu &amp; Ampas</a></li>
-            <li><a href="#proses" class="hover:text-brand-gold transition-colors">SOP Higienitas</a></li>
+            <li><NuxtLink to="/" class="hover:text-brand-gold transition-colors">Kembali ke Atas</NuxtLink></li>
+            <li><NuxtLink to="/#keunggulan" class="hover:text-brand-gold transition-colors">Mengapa Kami</NuxtLink></li>
+            <li><NuxtLink to="/#tentang" class="hover:text-brand-gold transition-colors">Riwayat Pembuat</NuxtLink></li>
+            <li><NuxtLink to="/#produk" class="hover:text-brand-gold transition-colors">Katalog Tahu &amp; Ampas</NuxtLink></li>
+            <li><NuxtLink to="/#proses" class="hover:text-brand-gold transition-colors">SOP Higienitas</NuxtLink></li>
+            <li><NuxtLink to="/blog" class="hover:text-brand-gold transition-colors">Blog &amp; Edukasi Kesehatan</NuxtLink></li>
           </ul>
         </div>
 
