@@ -1,0 +1,45 @@
+name: Diagnosa VPS (502 Bad Gateway)
+
+on:
+  workflow_dispatch: # Jalankan manual: Actions -> "Diagnosa VPS" -> Run workflow
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan diagnosa di VPS
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.SSH_PASSWORD }}
+          port: ${{ secrets.PORT }}
+          script: |
+            set +e
+            echo "=== 1. PM2 STATUS ==="
+            pm2 status
+            echo ""
+            echo "=== 2. PM2 INFO pabriktahu-landing ==="
+            pm2 info pabriktahu-landing
+            echo ""
+            echo "=== 3. PM2 LOGS (30 baris terakhir) ==="
+            pm2 logs pabriktahu-landing --lines 30 --nostream
+            echo ""
+            echo "=== 4. PORT YANG DILISTEN NODE/PM2 ==="
+            ss -tlnp 2>/dev/null | grep -E 'node|pm2' || netstat -tlnp 2>/dev/null | grep -E 'node|pm2' || echo "(tidak ada port node/pm2)"
+            echo ""
+            echo "=== 5. NGINX proxy_pass ==="
+            grep -rn "proxy_pass" /etc/nginx/sites-enabled/ /etc/nginx/conf.d/ 2>/dev/null || echo "(proxy_pass tidak ditemukan)"
+            echo ""
+            echo "=== 6. TEST LOKAL (port 3000 & 8080) ==="
+            curl -s -o /dev/null -w "port 3000 -> HTTP %{http_code}\n" --max-time 5 http://localhost:3000 || echo "port 3000 -> GAGAL"
+            curl -s -o /dev/null -w "port 8080 -> HTTP %{http_code}\n" --max-time 5 http://localhost:8080 || echo "port 8080 -> GAGAL"
+            echo ""
+            echo "=== 7. ISI FOLDER PROYEK ==="
+            ls -la /var/www/pabriktahu/ | head -20
+            echo ""
+            echo "=== 8. HASIL BUILD ADA? ==="
+            ls -la /var/www/pabriktahu/.output/server/index.mjs 2>&1
+            echo ""
+            echo "=== 9. NGINX CONFIG TEST ==="
+            nginx -t 2>&1
