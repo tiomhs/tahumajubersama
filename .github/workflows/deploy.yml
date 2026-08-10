@@ -14,19 +14,21 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          password: ${{ secrets.PASSWORD }}
+          port: ${{ secrets.PORT }}
           script: |
             # Masuk ke folder proyek
             cd /var/www/pabriktahu
-            
+
             # Tarik kode terbaru
             git pull origin main
-            
-            # Install package baru (jika ada)
-            npm install
-            
+
+            # Install package baru (reproducible, sesuai package-lock.json)
+            npm ci
+
             # Build ulang Nuxt
             npm run build
-            
-            # Restart PM2
+
+            # Restart PM2 dan simpan daftar proses
             pm2 restart pabriktahu-landing
+            pm2 save
